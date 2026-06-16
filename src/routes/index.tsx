@@ -82,8 +82,13 @@ function Index() {
         </div>
 
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent flex flex-col justify-end p-4 z-10">
-          <h1 className="text-2xl font-bold text-primary leading-tight drop-shadow-sm font-display">
-            Where Happy<br />Creation Begin ✿
+          <h1 className="text-3xl sm:text-4xl font-bold leading-tight drop-shadow-sm font-display">
+            <span className="text-brand-teal">Where</span>{" "}
+            <span className="text-brand-orange">Happy</span>
+            <br />
+            <span className="text-brand-purple">Creation</span>{" "}
+            <span className="text-brand-coral">Begin</span>{" "}
+            <span className="text-brand-yellow">✿</span>
           </h1>
           <Link to="/shop" className="mt-3 inline-flex w-fit bg-primary text-primary-foreground px-5 py-2 rounded-full text-sm font-bold shadow-md hover:scale-[1.02] active:scale-95 transition-all">
             Shop the collection
